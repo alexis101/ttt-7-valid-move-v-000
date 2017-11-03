@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 
-ef valid_move?(board,index)
+def valid_move?(board,index)
   if  index.to_i.between?(1,9) && position_taken?
     true
   else
