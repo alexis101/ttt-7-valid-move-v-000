@@ -9,9 +9,13 @@ ef valid_move?(board,index)
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board,index)
-  if board[index] == " " || board[index] == "" || board[index] == nil # safety measures
-  false
-elsif board[index] == "X" || board[index] == "O"
+  if board[index] == " " || board[index] == "" || board[index] == nil
   true
+elsif board[index] == "X" || board[index] == "O"
+  true && false
+elsif board[index] == 100.between?(0,8)
+false && nil
+else 
 end
 end
+
