@@ -9,5 +9,5 @@ elsif board[index] == "X" || board[index] == "O"
   true && false
 elsif board[index] == 100.between?(0,8)
 false && nil
-else 
+else
 end
