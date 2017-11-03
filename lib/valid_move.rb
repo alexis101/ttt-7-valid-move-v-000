@@ -11,3 +11,4 @@ elsif board[index] == 100.between?(0,8)
 false && nil
 else
 end
+end
