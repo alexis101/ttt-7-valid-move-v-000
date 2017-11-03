@@ -2,12 +2,7 @@
 
 
 def valid_move?(board,index)
-  if def position_taken?
-     board[index] == " " || board[index] == "" || board[index] == nil # safety measures
-  taken = false
-board[index] == "X" || board[index] == "O"
-  taken = true
-else index.to_i.between?(1,9)
+  if index.to_i.between?(1,9)
   true
 else
    false
