@@ -2,7 +2,7 @@
 
 
 def valid_move?(board,index)
-  if index.to_i.between?(1,9)
+  if board[index].to_i.between?(1,9)
   true
 else
    false
