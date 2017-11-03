@@ -5,10 +5,7 @@ def valid_move?(board,index)
  true
 elsif board[index] == "X" || board[index] == "O"
  true && false
-elsif condition
-    index.to_i.between?(1,9) && position_taken?
-    true
-  else
+elsif index.to_i.between?(1,9) && position_taken?
      false
   end
 end
